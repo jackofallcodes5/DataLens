@@ -1,0 +1,12 @@
+EmployeeID,Name,Department,Salary,JoiningDate,Email
+101, Alice Smith ,Engineering,85000,2021-03-15,alice.smith@example.com
+102,Bob Jones,Marketing,62000,2020-07-01,bob.jones@example.com
+103,Charlie Brown,Engineering,,2019-11-20,charlie.brown@example.com
+104,Diana Prince,HR,58000,15/01/2022,diana.prince@example.com
+105,Evan Wright ,Finance,71000,2021-09-10,invalid-email-address
+106,Fiona Gallagher,Engineering,89000,2018-05-23,fiona@example.com
+107,George Clark,Marketing,,2022-02-14,george.clark@example.com
+108,Hannah Abbott,HR,59000,2021-12-01,hannah.abbott@example.com
+109,Ian Malcolm,Finance,450000,2017-04-12,ian.malcolm@example.com
+102,Bob Jones,Marketing,62000,2020-07-01,bob.jones@example.com
+110,Julia Roberts ,Engineering,92000,2020-08-30,julia.roberts@example.com

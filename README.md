@@ -121,4 +121,5 @@ For software engineering interviews and in-depth study of the implementation:
 - [Data Flow Lifecycle](docs/DATA_FLOW.md): Step-by-step lifecycle from ingestion to export.
 - [REST API Reference](docs/API.md): Detailed endpoint definitions, request bodies, and responses.
 - [Step-by-Step Learning Guide](docs/LEARNING_GUIDE.md): 10-stage interview guide breaking down key functions.
+- [ETL Pipeline Documentation](docs/ETL_PIPELINE.md): Production ETL pipeline with dead-letter queue and retry guide.
 - [Testing Guide](docs/TESTING.md): Verification test suites and coverage instructions.

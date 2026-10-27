@@ -2,7 +2,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from app.config import settings
 from app.database import init_db
-from app.api.routes import health, projects, datasets, profiling, cleaning, visualization, exports
+from app.api.routes import health, projects, datasets, profiling, cleaning, visualization, exports, etl
 
 # Initialize DB tables
 init_db()
@@ -30,6 +30,7 @@ app.include_router(profiling.router, prefix="/api")
 app.include_router(cleaning.router, prefix="/api")
 app.include_router(visualization.router, prefix="/api")
 app.include_router(exports.router, prefix="/api")
+app.include_router(etl.router, prefix="/api")
 
 @app.get("/")
 def root():
